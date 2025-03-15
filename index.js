@@ -178,18 +178,28 @@
 //     cost = 0
 // }
 
-// let cost;
-// const subscription = 'premium';
+let cost;
+const subscription = 'premium';
 
-// if (subscription === 'free') {
-//     cost = 0;
-// } else if (subscription === 'pro') {
-//     cost = 100;
-// } else if (subscription === 'premium') {
-//     cost = 500;
-// } else {
-//     console.log('Invalid subscription type');
-// }
+switch (subscription === 'free') {
+    case 'free':
+        cost = 0;
+        break;
+    
+    case 'premium':
+        cost = 100;
+        break;
+
+
+case 'pro':
+cost = 100;
+        break;
+
+
+
+default: 
+    console.log('Invalid subscription type');
+}
 
 
 // let age = prompt("How old are you?")
@@ -215,18 +225,68 @@
 //     console.log("You are wrong!")
 // }
 
-let balance = 1000;
-let withdrawal = parseFloat(prompt("Введіть суму для зняття: ")) || 0;
+// let balance = 1000;
+// let withdrawal = parseFloat(prompt("Введіть суму для зняття: ")) || 0;
 
-alert(`Ви хочете зняти ${withdrawal} гривень. Перевіряємо доступні кошти...`);
+// alert(`Ви хочете зняти ${withdrawal} гривень. Перевіряємо доступні кошти...`);
 
-if (withdrawal > 0 && withdrawal <= balance) {
-    balance -= withdrawal;
-    alert(`Операція успішна! Ви зняли ${withdrawal} гривень. Залишок на рахунку: ${balance} Dollars.`);
-} else if (withdrawal > balance) {
-    alert("Недостатньо коштів на рахунку!");
-} else {
-    alert("Некоректна сума зняття!");
+// if (withdrawal > 0 && withdrawal <= balance) {
+//     balance -= withdrawal;
+//     alert(`Операція успішна! Ви зняли ${withdrawal} гривень. Залишок на рахунку: ${balance} Dollars.`);
+// } else if (withdrawal > balance) {
+//     alert("Недостатньо коштів на рахунку!");
+// } else {
+//     alert("Некоректна сума зняття!");
+// }
+
+// alert("Дякуємо, що скористалися банкоматом!");
+
+// const browser = prompt("What browser do you use?");
+// switch (browser) {
+//     case 'Chrome':
+//         alert("We are supporting this browser. Hope you like it.");
+// break;
+// case 'Firefox':
+//     case 'Safari':
+//     case 'Opera':
+//     default:
+//         alert("We are not supporting this browser");
+// }
+
+// const a = prompt("Enter a number")
+// switch (a) {
+//     case '0':
+//         console.log("0")
+//         break;
+// case '1':
+//    console.log("1")
+// break;
+
+
+//     case '2','3':
+//         console.log("2,3")
+//         break;
+//     default:
+//         console.log("NaN");
+// }
+
+// const input = parseInt(prompt("Enter a number"));
+
+// switch (true) {
+//     case input >= 55 && input <=99:
+//         console.log("In the range")
+//         break;
+//     default:
+//         console.log("NaN")
+// }
+
+const firstName = prompt("What is your name?");
+const lastName = prompt("What is your name?");
+
+switch (true) {
+    case firstName.length >= 4 && lastName.length >= 5:
+        console.log(firstName.length + lastName.length);
+        break;
+    default:
+        console.log("Opps");
 }
-
-alert("Дякуємо, що скористалися банкоматом!");
