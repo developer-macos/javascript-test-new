@@ -280,13 +280,53 @@ default:
 //         console.log("NaN")
 // }
 
-const firstName = prompt("What is your name?");
-const lastName = prompt("What is your name?");
+// const firstName = prompt("What is your name?");
+// const lastName = prompt("What is your name?");
 
-switch (true) {
-    case firstName.length >= 4 && lastName.length >= 5:
-        console.log(firstName.length + lastName.length);
-        break;
-    default:
-        console.log("Opps");
+// switch (true) {
+//     case firstName.length >= 4 && lastName.length >= 5:
+//         console.log(firstName.length + lastName.length);
+//         break;
+//     default:
+//         console.log("Opps");
+// }
+
+
+let grades = [3, 4, 5, 6, 7, 8, 9]
+let i = 0
+let = total = 0
+
+while (i < grades.length) {
+    total += grades[i];
+    i++
 }
+    
+rest = total / grades.length;
+    console.log(total , rest)
+    if (rest < 7) {
+        console.log("You are accepted")
+    }
+
+const max = 10
+for (let index = 0; index < max; index++) {
+    if (index % 2 === 0) {
+        continue;
+    }
+    console.log(index)
+}
+
+
+// let num = prompt("Enter a number from 100 and more!")
+
+// while (Number (num) < 100) {
+//     num = prompt("Enter one more time")
+// }
+
+let employees = 10
+let yearSalary = Math.random() * (5000 - 500 + 1)
+
+console.log(employees + yearSalary)
+
+// for (let i = 0; i < employees; i++) {
+//     yearSalary += Math.random() * (5000 - 500 + 1)
+// }
