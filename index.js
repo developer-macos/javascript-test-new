@@ -330,3 +330,15 @@ console.log(employees + yearSalary)
 // for (let i = 0; i < employees; i++) {
 //     yearSalary += Math.random() * (5000 - 500 + 1)
 // }
+
+const text = function (a = 2, b = 3) {
+    return (a * b)
+}
+console.log(text(5, 6))
+
+let isEven = function (a) {
+    return a %2 == 0
+}
+
+console.log(isEven(4)); // true
+console.log(isEven(3)); // false
