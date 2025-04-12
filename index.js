@@ -377,30 +377,49 @@
 // let max = findMaxNumber(array);
 // console.log(max); // 5
 
-function hello2(name) {
-    console.log("Привіт, " + name);
+// function hello2(name) {
+//     console.log("Привіт, " + name);
+// }
+
+// hello2("Василь"); // Виведе "Привіт, Василь"
+// // let max = findMaxNumber(array);
+// // console.log(max); // 5
+
+// function hello2(name) {
+//     console.log(`Привіт, ${name}`);
+// }
+
+// hello2("Василь"); // Виведе "Привіт, Василь"
+
+// function mul(n, m) {
+//     return {
+//         product: n * m,
+//         sum: n + m,
+//         difference: n - m
+//     };
+// }
+
+// let result = mul(5, 3);
+// console.log(result); // Виведе { product: 15, sum: 8, difference: 2 }
+
+// result = mul(10, 2);
+// console.log(result); // Виведе { product: 20, sum: 12, difference: 8 }
+
+const arr = [1, 2, 3, 4, 5];
+
+function sumArray(arr, callback) {
+    let element = 0;
+    for (let i = 0; i < arr.length; i++) {
+        element += arr[i];
+    }
+    callback(element);
 }
 
-hello2("Василь"); // Виведе "Привіт, Василь"
-// let max = findMaxNumber(array);
-// console.log(max); // 5
-
-function hello2(name) {
-    console.log(`Привіт, ${name}`);
+function cb(result) {
+    // console.log(result);
+    // const element = document.getElementById("text");
+    // document.getElementById("text").textContent = number;
+    return
 }
 
-hello2("Василь"); // Виведе "Привіт, Василь"
-
-function mul(n, m) {
-    return {
-        product: n * m,
-        sum: n + m,
-        difference: n - m
-    };
-}
-
-let result = mul(5, 3);
-console.log(result); // Виведе { product: 15, sum: 8, difference: 2 }
-
-result = mul(10, 2);
-console.log(result); // Виведе { product: 20, sum: 12, difference: 8 }
+sumArray(arr, cb); // Виведе 15
