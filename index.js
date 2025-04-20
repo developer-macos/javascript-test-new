@@ -405,21 +405,66 @@
 // result = mul(10, 2);
 // console.log(result); // Виведе { product: 20, sum: 12, difference: 8 }
 
-const arr = [1, 2, 3, 4, 5];
 
-function sumArray(arr, callback) {
-    let element = 0;
-    for (let i = 0; i < arr.length; i++) {
-        element += arr[i];
+// const arr = [1, 2, 3, 4, 5];
+
+// function sumArray(arr, callback) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         sum += arr[i];
+//     }
+//     callback(sum);
+// }
+
+// function cb(result) {
+//     console.log(result);
+// }
+
+// sumArray(arr, cb); // Виведе 15
+
+const filtr = function (arr, callback) {
+    const filt = [];
+    for (const elsement of arr) {
+        const passed = callback(elsement);
+        if (passed) {
+            filt.push(elsement)
+        }
     }
-    callback(element);
+    return filt
 }
 
-function cb(result) {
-    // console.log(result);
-    // const element = document.getElementById("text");
-    // document.getElementById("text").textContent = number;
-    return
-}
+const fruits = [
+    { name: 'apples', quantity: 200, isFresh: true },
+    { name: 'grapes', quantity: 150, isFresh: false },
+    { name: 'bananas', quantity: 100, isFresh: true },
+];
+const freshfruits = filtr(fruits, fruit => fruit.isFresh)
+console.log(freshfruits)
 
-sumArray(arr, cb); // Виведе 15
+
+const hello2 = (name) => console.log(`Привіт, ${name}`);
+
+hello2("Василь"); // Виведе "Привіт, Василь"
+
+const myAverageScore = (scores) => {
+    const sum = scores.reduce((total, score) => total + score, 0);
+    const average = sum / scores.length;
+
+    let grade;
+    if (average >= 91 && average <= 100) {
+        grade = "A";
+    } else if (average >= 81 && average <= 90) {
+        grade = "B";
+    } else if (average >= 71 && average <= 80) {
+        grade = "C";
+    } else {
+        grade = "D";
+    }
+
+    console.log(`My average score: ${grade}, ${average}`);
+};
+
+console.log(myAverageScore([100, 75, 81, 96])); // My average score: B
+console.log(myAverageScore([45, 63, 85, 70])); // My average score: D
+console.log(myAverageScore([77, 82, 60, 58])); // My average score: D
+console.log(myAverageScore([93, 99, 93, 96])); // My average score: A
