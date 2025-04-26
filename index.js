@@ -422,98 +422,138 @@
 
 // sumArray(arr, cb); // Виведе 15
 
-const filtr = function (arr, callback) {
-    const filt = [];
-    for (const elsement of arr) {
-        const passed = callback(elsement);
-        if (passed) {
-            filt.push(elsement)
-        }
-    }
-    return filt
+// const filtr = function (arr, callback) {
+//     const filt = [];
+//     for (const elsement of arr) {
+//         const passed = callback(elsement);
+//         if (passed) {
+//             filt.push(elsement)
+//         }
+//     }
+//     return filt
+// }
+
+// const fruits = [
+//     { name: 'apples', quantity: 200, isFresh: true },
+//     { name: 'grapes', quantity: 150, isFresh: false },
+//     { name: 'bananas', quantity: 100, isFresh: true },
+// ];
+// const freshfruits = filtr(fruits, fruit => fruit.isFresh)
+// console.log(freshfruits)
+
+
+// const hello2 = (name) => console.log(`Привіт, ${name}`);
+
+// hello2("Василь"); // Виведе "Привіт, Василь"
+
+// const myAverageScore = (scores) => {
+//     const sum = scores.reduce((total, score) => total + score, 0);
+//     const average = sum / scores.length;
+
+//     let grade;
+//     if (average >= 91 && average <= 100) {
+//         grade = "A";
+//     } else if (average >= 81 && average <= 90) {
+//         grade = "B";
+//     } else if (average >= 71 && average <= 80) {
+//         grade = "C";
+//     } else {
+//         grade = "D";
+//     }
+
+//     console.log(`My average score: ${grade}, ${average}`);
+// };
+
+// console.log(myAverageScore([100, 75, 81, 96])); // My average score: B
+// console.log(myAverageScore([45, 63, 85, 70])); // My average score: D
+// console.log(myAverageScore([77, 82, 60, 58])); // My average score: D
+// console.log(myAverageScore([93, 99, 93, 96])); // My average score: A
+
+
+// let car = {
+//     Brand: "Toyota",
+//     Model: "Corola",
+//     Year: "2002",
+//     Color: "Blue",
+//     showName() {
+//         console.log(this.Brand)
+//         console.log(this.Model)
+//         console.log(this.Year)
+//         console.log(this.Color)
+//     },
+// };
+// car.showName();
+
+
+
+
+// const cart = {
+//     items: [
+// { name: '🍎', price: 50 },
+// { name: '🍇', price: 70 },
+// { name: '🍋', price: 60 },
+// { name: '🍓', price: 110 }
+//     ],
+//     getItems() {return this.items },
+//     add(product) {
+//         let found = false; 
+//         for (let i = 0; i < array.length; i++) {
+//             if (this.items[i].name === product.name) {
+//                 this.items[i].quantity;
+//                 found = true
+//             }
+//         }
+//     },
+//     remove(productName) {
+//         for (let i = 0; i < this.items.length; i++) {
+//             if (this.items[i].name === product.name) {
+//                 this.items.splice(i, 1)
+//                 break;
+//             }
+//         }
+// },
+//     clear() { },
+//     countTotalPrice() { },
+//     increaseQuantity(productName) { },
+//     decreaseQuantity(productName) { },
+// };
+
+const tractor = {
+    size: 'Big',
+    color: 'Blue',
+    motor: 'V12'
+}   
+
+// for (const key in tractor) {
+//     console.log(key, tractor[key])
+// }
+
+const values = Object.values(tractor);
+console.log(values);
+const keys = Object.keys(tractor);
+console.log(keys);
+const entries = Object.entries(tractor);
+console.log(entries);
+
+const friends = [
+    { name: 'Mango', online: false },
+    { name: 'Kiwi', online: true },
+    { name: 'Poly', online: false },
+    { name: 'Ajax', online: false },
+]
+
+function getAllNames(friendleArray, friend) {
+    for ()
 }
 
-const fruits = [
-    { name: 'apples', quantity: 200, isFresh: true },
-    { name: 'grapes', quantity: 150, isFresh: false },
-    { name: 'bananas', quantity: 100, isFresh: true },
-];
-const freshfruits = filtr(fruits, fruit => fruit.isFresh)
-console.log(freshfruits)
+function findFriend(friendleArray, friend) {
+    for (let i = 0; i < friendleArray.length; i++) {
+        if (friendleArray[i].name === friend) {
+            return friendleArray[i];
+        }
 
-
-const hello2 = (name) => console.log(`Привіт, ${name}`);
-
-hello2("Василь"); // Виведе "Привіт, Василь"
-
-const myAverageScore = (scores) => {
-    const sum = scores.reduce((total, score) => total + score, 0);
-    const average = sum / scores.length;
-
-    let grade;
-    if (average >= 91 && average <= 100) {
-        grade = "A";
-    } else if (average >= 81 && average <= 90) {
-        grade = "B";
-    } else if (average >= 71 && average <= 80) {
-        grade = "C";
-    } else {
-        grade = "D";
     }
-
-    console.log(`My average score: ${grade}, ${average}`);
-};
-
-console.log(myAverageScore([100, 75, 81, 96])); // My average score: B
-console.log(myAverageScore([45, 63, 85, 70])); // My average score: D
-console.log(myAverageScore([77, 82, 60, 58])); // My average score: D
-console.log(myAverageScore([93, 99, 93, 96])); // My average score: A
-
-
-let car = {
-    Brand: "Toyota",
-    Model: "Corola",
-    Year: "2002",
-    Color: "Blue",
-    showName() {
-        console.log(this.Brand)
-        console.log(this.Model)
-        console.log(this.Year)
-        console.log(this.Color)
-    },
-};
-car.showName();
-
-
-
-
-const cart = {
-    items: [
-{ name: '🍎', price: 50 },
-{ name: '🍇', price: 70 },
-{ name: '🍋', price: 60 },
-{ name: '🍓', price: 110 }
-    ],
-    getItems() {return this.items },
-    add(product) {
-        let found = false; 
-        for (let i = 0; i < array.length; i++) {
-            if (this.items[i].name === product.name) {
-                this.items[i].quantity;
-                found = true
-            }
-        }
-    },
-    remove(productName) {
-        for (let i = 0; i < this.items.length; i++) {
-            if (this.items[i].name === product.name) {
-                this.items.splice(i, 1)
-                break;
-            }
-        }
-},
-    clear() { },
-    countTotalPrice() { },
-    increaseQuantity(productName) { },
-    decreaseQuantity(productName) { },
-};
+    return null;
+}
+console.log(findFriend(friends, 'Poly'));
+console.log(findFriend(friends, 'Chelsy'));
