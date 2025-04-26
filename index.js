@@ -468,3 +468,52 @@ console.log(myAverageScore([100, 75, 81, 96])); // My average score: B
 console.log(myAverageScore([45, 63, 85, 70])); // My average score: D
 console.log(myAverageScore([77, 82, 60, 58])); // My average score: D
 console.log(myAverageScore([93, 99, 93, 96])); // My average score: A
+
+
+let car = {
+    Brand: "Toyota",
+    Model: "Corola",
+    Year: "2002",
+    Color: "Blue",
+    showName() {
+        console.log(this.Brand)
+        console.log(this.Model)
+        console.log(this.Year)
+        console.log(this.Color)
+    },
+};
+car.showName();
+
+
+
+
+const cart = {
+    items: [
+{ name: '🍎', price: 50 },
+{ name: '🍇', price: 70 },
+{ name: '🍋', price: 60 },
+{ name: '🍓', price: 110 }
+    ],
+    getItems() {return this.items },
+    add(product) {
+        let found = false; 
+        for (let i = 0; i < array.length; i++) {
+            if (this.items[i].name === product.name) {
+                this.items[i].quantity;
+                found = true
+            }
+        }
+    },
+    remove(productName) {
+        for (let i = 0; i < this.items.length; i++) {
+            if (this.items[i].name === product.name) {
+                this.items.splice(i, 1)
+                break;
+            }
+        }
+},
+    clear() { },
+    countTotalPrice() { },
+    increaseQuantity(productName) { },
+    decreaseQuantity(productName) { },
+};
