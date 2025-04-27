@@ -543,8 +543,14 @@ const friends = [
 ]
 
 function getAllNames(friendleArray, friend) {
-    for ()
+    for (let i = 0; i < friendleArray.length; i++) {
+        if (friendleArray[i].name == friend) {
+            return friendleArray[i];
+        }
+    }
 }
+console.log(getAllNames(friends));
+
 
 function findFriend(friendleArray, friend) {
     for (let i = 0; i < friendleArray.length; i++) {
@@ -557,3 +563,33 @@ function findFriend(friendleArray, friend) {
 }
 console.log(findFriend(friends, 'Poly'));
 console.log(findFriend(friends, 'Chelsy'));
+
+function getOnlineFriends(friends) {
+    if (!Array.isArray(friends)) {
+        throw new Error("Input must be an array"); // Check if the input is an array
+    }
+    const onlineFriends = friends.filter(friend => friend.online);
+
+    onlineFriends.forEach(friend => {
+        console.log(`${friend.name} is online`); // Log the online status of each friend
+    });
+
+    return onlineFriends; // Return the array of online friends
+}
+
+console.log(getOnlineFriends(friends)); // Call the function and log the result
+
+function getOfflineFriends(friends) {
+    if (!Array.isArray(friends)) {
+        throw new Error("Input must be an array");
+    }
+    const offlineFriends = friends.filter(friend => !friend.online);
+
+    offlineFriends.forEach(friend => {
+        console.log(`${friend.name} is offline`);
+    });
+
+    return offlineFriends;
+}
+
+console.log(getOfflineFriends(friends))
