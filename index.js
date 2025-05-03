@@ -518,78 +518,104 @@
 //     decreaseQuantity(productName) { },
 // };
 
-const tractor = {
-    size: 'Big',
-    color: 'Blue',
-    motor: 'V12'
-}   
+// const tractor = {
+//     size: 'Big',
+//     color: 'Blue',
+//     motor: 'V12'
+// }   
 
-// for (const key in tractor) {
-//     console.log(key, tractor[key])
+// // for (const key in tractor) {
+// //     console.log(key, tractor[key])
+// // }
+
+// const values = Object.values(tractor);
+// console.log(values);
+// const keys = Object.keys(tractor);
+// console.log(keys);
+// const entries = Object.entries(tractor);
+// console.log(entries);
+
+// const friends = [
+//     { name: 'Mango', online: false },
+//     { name: 'Kiwi', online: true },
+//     { name: 'Poly', online: false },
+//     { name: 'Ajax', online: false },
+// ]
+
+// function getAllNames(friendleArray, friend) {
+//     const all = [];
+//     for ()
+// }
+// console.log(getAllNames(friends));
+
+
+// function findFriend(friendleArray, friend) {
+//     for (let i = 0; i < friendleArray.length; i++) {
+//         if (friendleArray[i].name === friend) {
+//             return friendleArray[i];
+//         }
+
+//     }
+//     return null;
+// }
+// console.log(findFriend(friends, 'Poly'));
+// console.log(findFriend(friends, 'Chelsy'));
+
+// function getOnlineFriends(friends) {
+//     if (!Array.isArray(friends)) {
+//         throw new Error("Input must be an array"); // Check if the input is an array
+//     }
+//     const onlineFriends = friends.filter(friend => friend.online);
+
+//     onlineFriends.forEach(friend => {
+//         console.log(`${friend.name} is online`); // Log the online status of each friend
+//     });
+
+//     return onlineFriends; // Return the array of online friends
 // }
 
-const values = Object.values(tractor);
-console.log(values);
-const keys = Object.keys(tractor);
-console.log(keys);
-const entries = Object.entries(tractor);
-console.log(entries);
+// console.log(getOnlineFriends(friends)); // Call the function and log the result
 
-const friends = [
-    { name: 'Mango', online: false },
-    { name: 'Kiwi', online: true },
-    { name: 'Poly', online: false },
-    { name: 'Ajax', online: false },
+// function getOfflineFriends(friends) {
+//     if (!Array.isArray(friends)) {
+//         throw new Error("Input must be an array");
+//     }
+//     const offlineFriends = friends.filter(friend => !friend.online); // gets the other property from online. Meaning; False
+
+//     offlineFriends.forEach(friend => {
+//         console.log(`${friend.name} is offline`); // writes that which friend is offline
+//     });
+
+//     return offlineFriends; // returning the array
+// }
+
+// console.log(getOfflineFriends(friends)) // writing the code
+
+let products = [
+
+    {
+        price: '200',
+        category: 'Phones',
+        stock: 'None',
+        name: 'Iphone16UltraPro'
+    },
+{
+        price: '400',
+        category: 'Phones',
+        stock: '2',
+        name: 'Iphone17UltraPro'
+    },
+    {
+        price: '800',
+        category: 'Phones',
+        stock: '1',
+        name: 'Iphone18UltraPro'
+    }
+
 ]
-
-function getAllNames(friendleArray, friend) {
-    for (let i = 0; i < friendleArray.length; i++) {
-        if (friendleArray[i].name == friend) {
-            return friendleArray[i];
-        }
-    }
-}
-console.log(getAllNames(friends));
-
-
-function findFriend(friendleArray, friend) {
-    for (let i = 0; i < friendleArray.length; i++) {
-        if (friendleArray[i].name === friend) {
-            return friendleArray[i];
-        }
-
-    }
-    return null;
-}
-console.log(findFriend(friends, 'Poly'));
-console.log(findFriend(friends, 'Chelsy'));
-
-function getOnlineFriends(friends) {
-    if (!Array.isArray(friends)) {
-        throw new Error("Input must be an array"); // Check if the input is an array
-    }
-    const onlineFriends = friends.filter(friend => friend.online);
-
-    onlineFriends.forEach(friend => {
-        console.log(`${friend.name} is online`); // Log the online status of each friend
-    });
-
-    return onlineFriends; // Return the array of online friends
+ 
+function getAllPrices(products, ProductsArr) {
+    console.log(products.price)
 }
 
-console.log(getOnlineFriends(friends)); // Call the function and log the result
-
-function getOfflineFriends(friends) {
-    if (!Array.isArray(friends)) {
-        throw new Error("Input must be an array");
-    }
-    const offlineFriends = friends.filter(friend => !friend.online);
-
-    offlineFriends.forEach(friend => {
-        console.log(`${friend.name} is offline`);
-    });
-
-    return offlineFriends;
-}
-
-console.log(getOfflineFriends(friends))
+console.log(getAllPrices);
