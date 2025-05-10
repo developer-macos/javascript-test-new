@@ -591,31 +591,142 @@
 
 // console.log(getOfflineFriends(friends)) // writing the code
 
-let products = [
+// let products = [
 
-    {
-        price: '200',
-        category: 'Phones',
-        stock: 'None',
-        name: 'Iphone16UltraPro'
-    },
-{
-        price: '400',
-        category: 'Phones',
-        stock: '2',
-        name: 'Iphone17UltraPro'
-    },
-    {
-        price: '800',
-        category: 'Phones',
-        stock: '1',
-        name: 'Iphone18UltraPro'
-    }
+//     {
+//         price: '200',
+//         category: 'Phones',
+//         stock: 'None',
+//         name: 'Iphone16UltraPro'
+//     },
+// {
+//         price: '400',
+//         category: 'Phones',
+//         stock: '2',
+//         name: 'Iphone17UltraPro'
+//     },
+//     {
+//         price: '800',
+//         category: 'Phones',
+//         stock: '1',
+//         name: 'Iphone18UltraPro'
+//     }
 
-]
+// ]
  
-function getAllPrices(products, ProductsArr) {
-    console.log(products.price)
+// function getAllPrices(products, ProductsArr) {
+//     console.log(products.price)
+// }
+
+// console.log(getAllPrices);
+
+
+// const list = {
+//     name: 'John Doe',
+//     age: 25,
+//     city: 'New York',
+//     family: 'big'
+// }
+
+// const { name, age, city, family } = list;
+
+const user = {
+    name: 'John',
+    age: 30,
+    email: 'john@example.com',
+    info() {
+        console.log(`Name: ${this.name}, Age: ${this.age}`);
+    } 
 }
 
-console.log(getAllPrices);
+const { name, age, email } = user;
+console.log(name, age, email);
+
+const car = {
+    make: 'Toyota',
+    model: 'Camry',
+    year: 2020,
+    features: ['power windows', 'rear camera', 'navigation'],
+    safety: {
+        airbags: true,
+        antilock_brakes: true,
+        stability_control: true
+    },
+    info() {
+        console.log(`Make: ${this.make}, Model: ${this.model}, Year: ${this.year}`);
+    }
+}
+const { make, model, year, features, safety } = car;
+console.log(make, model, year, features, safety);
+
+const movie = {
+    title: 'The Shawshank Redemption',
+    director: {
+        name: 'Frank Darabont',
+        nationality: 'American'
+    },
+    actors: ['Tim Robbins', 'Morgan Freeman'],
+    release_year: 1994,
+    ratings: {
+        imdb: 9.3,
+        rotten_tomatoes: 90
+    }
+}
+const { title, director, actors, release_year, ratings } = movie;
+console.log(title, director, actors, release_year, ratings);
+
+const books = {
+    count: 3,
+    list: [
+        {
+            title0: 'The Great Gatsby',
+            author0: 'F. Scott Fitzgerald',
+            year0: 1925
+        },
+        {
+            title1: 'To Kill a Mockingbird',
+            author1: 'Harper Lee',
+            year1: 1960
+        },
+        {
+            title2: '1984',
+            author2: 'George Orwell',
+            year2: 1949
+        }
+    ]
+}
+const { count, list: [{title0, author0, year0}, {title1, author1, year1}, {title2, author2, year2}]} = books;
+console.log(count, title0, author0, year0, title1, author1, year1, title2, author2, year2);
+
+
+const person = {
+    name: 'Nelli',
+    surname: 'Laroy',
+    age: 25,
+};
+
+const personInfo = function ({ name, surname, age }) {
+    return (`my name is ${name}, ${surname}. I am ${age} `)
+}
+
+console.log(personInfo(person));
+
+const student = {
+    name: 'Bruce',
+    surname: 'Lee',
+    grades: [4, 5, 3]
+};
+
+const calculateAverageGrade = function ({ grades: [var1, var2, var3] }) {
+    return ((var1+var2+var3)/3)
+}
+
+console.log(calculateAverageGrade(student));
+
+const items = [
+    { name: 'Футболка', price: 250, quantity: 2 },
+    { name: 'Джинси', price: 800, quantity: 1 },
+    { name: 'Кросівки', price: 1200, quantity: 1 }
+];
+
+console.log(calculateTotalCost(items)); // 250 * 2 + 800 * 1 + 1200 * 1 = 2500
