@@ -2,731 +2,770 @@
 
 
 
-// // // const validNummer = Number("51");
+// // // // const validNummer = Number("51");
 
-// // console.log((0.1 * 10 + 0.2 * 10) / 10);
+// // // console.log((0.1 * 10 + 0.2 * 10) / 10);
 
-// // //  Math.floor(num) - повертає найбільше ціле число, менше, або дорівнює вказаному
+// // // //  Math.floor(num) - повертає найбільше ціле число, менше, або дорівнює вказаному
 
-// // console.log(Math.floor(1.7)); // 1
+// // // console.log(Math.floor(1.7)); // 1
 
-// // // Math.ceil(num) - повертає найменше ціле число,
-// // // більше, або дорівнює зазначеному числу.
+// // // // Math.ceil(num) - повертає найменше ціле число,
+// // // // більше, або дорівнює зазначеному числу.
 
-// // console.log(Math.ceil(1.2));
+// // // console.log(Math.ceil(1.2));
 
 
-// // // Math.round(num) - повертає значення числа, округлене до найближчого цілого
+// // // // Math.round(num) - повертає значення числа, округлене до найближчого цілого
 
-// // console.log(Math.round(1.5, 2, 4, 5, 1, 6, 7)); // 2
+// // // console.log(Math.round(1.5, 2, 4, 5, 1, 6, 7)); // 2
 
 
-// // console.log(2 ** 4);
+// // // console.log(2 ** 4);
 
 
-// // console.log(Math.random() * (10 - 1) + 1);
+// // // console.log(Math.random() * (10 - 1) + 1);
 
 
-// // // const x = Number(prompt("Введіть перше число:"));
-// // // const y = Number(prompt("Введіть друге число:"));
+// // // // const x = Number(prompt("Введіть перше число:"));
+// // // // const y = Number(prompt("Введіть друге число:"));
 
-// // alert(x + " + " + y + " = " + (x * 22 + 222 / 3000000 + y + 2122 * 22 * 3000000));
-// // console.log(validNummer)
+// // // alert(x + " + " + y + " = " + (x * 22 + 222 / 3000000 + y + 2122 * 22 * 3000000));
+// // // console.log(validNummer)
 
 
-// // const message = 'Mango ' + 'is' + ' happy';
-// // console.log(message)
+// // // const message = 'Mango ' + 'is' + ' happy';
+// // // console.log(message)
 
-// // let result;
+// // // let result;
 
 
-// // result = 5 + '5';
+// // // result = 5 + '5';
 
-// // result = 5 + '5' + 5;
+// // // result = 5 + '5' + 5;
 
-// // console.log(result)
+// // // console.log(result)
 
-// // const message = 'Welcome to Bahamas!';
+// // // const message = 'Welcome to Bahamas!';
 
 
-// // console.log(message.length);
+// // // console.log(message.length);
 
-// // console.log(message.toLowerCase());
+// // // console.log(message.toLowerCase());
 
 
-// // console.log(message.toUpperCase());
+// // // console.log(message.toUpperCase());
 
-// // console.log(message.indexOf('to'));
+// // // console.log(message.indexOf('to'));
 
-// // console.log(message.startsWith('Wel'));
+// // // console.log(message.startsWith('Wel'));
 
 
-// // console.log(message.endsWith('!'));
+// // // console.log(message.endsWith('!'));
 
-// // const name = 'Vorext AI';
-// // const age = 'nAn';
-// // const mood = 'noone';
-// // const message =
-// //     'My name is ' + name + ",I am " + age + ' years old and ' + mood + '.';
-// // console.log(message);
+// // // const name = 'Vorext AI';
+// // // const age = 'nAn';
+// // // const mood = 'noone';
+// // // const message =
+// // //     'My name is ' + name + ",I am " + age + ' years old and ' + mood + '.';
+// // // console.log(message);
 
-// // const sameMessage = `My name is ${name}, I'm ${age} years old and ${mood}.`;
+// // // const sameMessage = `My name is ${name}, I'm ${age} years old and ${mood}.`;
 
 
-// // let username = "Vova Iarovyi";
+// // // let username = "Vova Iarovyi";
 
-// // console.log(username.indexOf("a"));
+// // // console.log(username.indexOf("a"));
 
-// // let x = "Norman";
+// // // let x = "Norman";
 
-// // let y = "Alex";
+// // // let y = "Alex";
 
-// // let n = 1;
+// // // let n = 1;
 
-// // let g = 11;
+// // // let g = 11;
 
-// // console.log("Гість", x, y, "поселяється в", n, "номер", g);
+// // // console.log("Гість", x, y, "поселяється в", n, "номер", g);
 
 
-// // const message = prompt('Type your message. No copying or instant ban from the group!');
-// // console.log(message.trim());
-// // // Vorext AI 2025 Copyright;
-// // // No copying or instant ban from the group!
+// // // const message = prompt('Type your message. No copying or instant ban from the group!');
+// // // console.log(message.trim());
+// // // // Vorext AI 2025 Copyright;
+// // // // No copying or instant ban from the group!
 
 
-// // const orderMsg = "Ви замовляєте 15 тістечок.";
-// // console.log(orderMsg.includes(15));
-// // console.log(orderMsg.indexOf('1'));
-// // // Vorext AI 2025 Copyright;
-// // // No copying or instant ban from the group!
+// // // const orderMsg = "Ви замовляєте 15 тістечок.";
+// // // console.log(orderMsg.includes(15));
+// // // console.log(orderMsg.indexOf('1'));
+// // // // Vorext AI 2025 Copyright;
+// // // // No copying or instant ban from the group!
 
 
-// // const blacklistedWord1 = 'спам';
-// // const blacklistedWord2 = 'розпродаж';
+// // // const blacklistedWord1 = 'спам';
+// // // const blacklistedWord2 = 'розпродаж';
 
 
-// // const string1 = 'Привіт, я Vortex AI, це не спам, пропоную тобі мільйон робаксів!';
-// // const string2 = 'Найбільший РОЗПРОДАЖ цього тижня, не пропустіть!';
-// // const string3 = 'Рекламна кампанія #jsIsAwesome';
-// // // Vorext AI 2025 Copyright;
-// // // No copying or instant ban from the group!
+// // // const string1 = 'Привіт, я Vortex AI, це не спам, пропоную тобі мільйон робаксів!';
+// // // const string2 = 'Найбільший РОЗПРОДАЖ цього тижня, не пропустіть!';
+// // // const string3 = 'Рекламна кампанія #jsIsAwesome';
+// // // // Vorext AI 2025 Copyright;
+// // // // No copying or instant ban from the group!
 
 
-// // console.log(Boolean(false))
+// // // console.log(Boolean(false))
 
-// // let num = 20;
-// // const result = num > 10 && num < 30;
-// // console.log(result);
+// // // let num = 20;
+// // // const result = num > 10 && num < 30;
+// // // console.log(result);
 
-// // /*
-// // * Логічне І (оператор &&)
-// // * - Запинається на брехні
-// // * - Повертає те на чому запнулось або останній операнд
-// // */
+// // // /*
+// // // * Логічне І (оператор &&)
+// // // * - Запинається на брехні
+// // // * - Повертає те на чому запнулось або останній операнд
+// // // */
 
 
-// // console.log(1 && 4 && 7 && 'mango');
+// // // console.log(1 && 4 && 7 && 'mango');
 
 
-// // /*
-// //  * Логічне АБО (оператор ||)
-// //  * - Запинаєтьс на правді
-// //  * - Повертає те на чому запнулось або останній операнд
-// //  */
+// // // /*
+// // //  * Логічне АБО (оператор ||)
+// // //  * - Запинаєтьс на правді
+// // //  * - Повертає те на чому запнулось або останній операнд
+// // //  */
 
 
-// // console.log("name" || "" || null || 0 || undefined);
+// // // console.log("name" || "" || null || 0 || undefined);
 
-// // /*
-// //  * Логічне НІ (оператор !)
-// //  * Робить інверсію правда > брехня та брехня > правда
-// //  */
+// // // /*
+// // //  * Логічне НІ (оператор !)
+// // //  * Робить інверсію правда > брехня та брехня > правда
+// // //  */
 
 
-// // console.log(!" ");
+// // // console.log(!" ");
 
-// // let number = prompt("How much money you have?");
+// // // let number = prompt("How much money you have?");
 
-// // if (number < 100) {
-// //     console.log("Welcome to the VorextAI+ Subscription!")
+// // // if (number < 100) {
+// // //     console.log("Welcome to the VorextAI+ Subscription!")
     
-// // }
-// // else {
-// // console.log("Not enough!")
-// // }
+// // // }
+// // // else {
+// // // console.log("Not enough!")
+// // // }
 
-// // if (number > 195) {
-// //     alert("Welcome to the VorextAI++ Subscription!")
-// //     console.log("Welcome to the VorextAI++ Subscription!")
-// // }
+// // // if (number > 195) {
+// // //     alert("Welcome to the VorextAI++ Subscription!")
+// // //     console.log("Welcome to the VorextAI++ Subscription!")
+// // // }
 
-// // let cost = 0;
-// // const subscription = 'pro';
+// // // let cost = 0;
+// // // const subscription = 'pro';
 
-// // if (subscription === 'pro') {
-// //     cost = 100;
-// // }
+// // // if (subscription === 'pro') {
+// // //     cost = 100;
+// // // }
 
-// // let cost = 0;
-// // const subscription = 'free';
+// // // let cost = 0;
+// // // const subscription = 'free';
 
-// // if (subscription === 'pro') {
-// //     cost = 100;
-// // }
+// // // if (subscription === 'pro') {
+// // //     cost = 100;
+// // // }
 
-// // else (subscription === 'free'); {
-// //     cost = 0
-// // }
+// // // else (subscription === 'free'); {
+// // //     cost = 0
+// // // }
 
-// let cost;
-// const subscription = 'premium';
+// // let cost;
+// // const subscription = 'premium';
 
-// switch (subscription === 'free') {
-//     case 'free':
-//         cost = 0;
-//         break;
+// // switch (subscription === 'free') {
+// //     case 'free':
+// //         cost = 0;
+// //         break;
     
-//     case 'premium':
-//         cost = 100;
-//         break;
-
-
-// case 'pro':
-// cost = 100;
-//         break;
-
-
-
-// default: 
-//     console.log('Invalid subscription type');
-// }
-
-
-// // let age = prompt("How old are you?")
-// // let type
-
-// // if (age < 18) {
-// //     alert("You are to young")
-// //     type = 'child'
-// // }
-
-// // else {
-// //     alert("You are old")
-// //     type = 'adult'
-// // }
-
-// // let name = prompt("What is the real name of Javascript?");
-
-// // if (name === "ESMAScript") {
-// //     console.log("You are right!")
-// // }
-
-// // else {
-// //     console.log("You are wrong!")
-// // }
-
-// // let balance = 1000;
-// // let withdrawal = parseFloat(prompt("Введіть суму для зняття: ")) || 0;
-
-// // alert(`Ви хочете зняти ${withdrawal} гривень. Перевіряємо доступні кошти...`);
-
-// // if (withdrawal > 0 && withdrawal <= balance) {
-// //     balance -= withdrawal;
-// //     alert(`Операція успішна! Ви зняли ${withdrawal} гривень. Залишок на рахунку: ${balance} Dollars.`);
-// // } else if (withdrawal > balance) {
-// //     alert("Недостатньо коштів на рахунку!");
-// // } else {
-// //     alert("Некоректна сума зняття!");
-// // }
-
-// // alert("Дякуємо, що скористалися банкоматом!");
-
-// // const browser = prompt("What browser do you use?");
-// // switch (browser) {
-// //     case 'Chrome':
-// //         alert("We are supporting this browser. Hope you like it.");
-// // break;
-// // case 'Firefox':
-// //     case 'Safari':
-// //     case 'Opera':
-// //     default:
-// //         alert("We are not supporting this browser");
-// // }
-
-// // const a = prompt("Enter a number")
-// // switch (a) {
-// //     case '0':
-// //         console.log("0")
+// //     case 'premium':
+// //         cost = 100;
 // //         break;
-// // case '1':
-// //    console.log("1")
-// // break;
 
 
-// //     case '2','3':
-// //         console.log("2,3")
+// // case 'pro':
+// // cost = 100;
 // //         break;
-// //     default:
-// //         console.log("NaN");
-// // }
 
-// // const input = parseInt(prompt("Enter a number"));
 
-// // switch (true) {
-// //     case input >= 55 && input <=99:
-// //         console.log("In the range")
-// //         break;
-// //     default:
-// //         console.log("NaN")
-// // }
 
-// // const firstName = prompt("What is your name?");
-// // const lastName = prompt("What is your name?");
-
-// // switch (true) {
-// //     case firstName.length >= 4 && lastName.length >= 5:
-// //         console.log(firstName.length + lastName.length);
-// //         break;
-// //     default:
-// //         console.log("Opps");
+// // default: 
+// //     console.log('Invalid subscription type');
 // // }
 
 
-// let grades = [3, 4, 5, 6, 7, 8, 9]
-// let i = 0
-// let = total = 0
+// // // let age = prompt("How old are you?")
+// // // let type
 
-// while (i < grades.length) {
-//     total += grades[i];
-//     i++
-// }
+// // // if (age < 18) {
+// // //     alert("You are to young")
+// // //     type = 'child'
+// // // }
+
+// // // else {
+// // //     alert("You are old")
+// // //     type = 'adult'
+// // // }
+
+// // // let name = prompt("What is the real name of Javascript?");
+
+// // // if (name === "ESMAScript") {
+// // //     console.log("You are right!")
+// // // }
+
+// // // else {
+// // //     console.log("You are wrong!")
+// // // }
+
+// // // let balance = 1000;
+// // // let withdrawal = parseFloat(prompt("Введіть суму для зняття: ")) || 0;
+
+// // // alert(`Ви хочете зняти ${withdrawal} гривень. Перевіряємо доступні кошти...`);
+
+// // // if (withdrawal > 0 && withdrawal <= balance) {
+// // //     balance -= withdrawal;
+// // //     alert(`Операція успішна! Ви зняли ${withdrawal} гривень. Залишок на рахунку: ${balance} Dollars.`);
+// // // } else if (withdrawal > balance) {
+// // //     alert("Недостатньо коштів на рахунку!");
+// // // } else {
+// // //     alert("Некоректна сума зняття!");
+// // // }
+
+// // // alert("Дякуємо, що скористалися банкоматом!");
+
+// // // const browser = prompt("What browser do you use?");
+// // // switch (browser) {
+// // //     case 'Chrome':
+// // //         alert("We are supporting this browser. Hope you like it.");
+// // // break;
+// // // case 'Firefox':
+// // //     case 'Safari':
+// // //     case 'Opera':
+// // //     default:
+// // //         alert("We are not supporting this browser");
+// // // }
+
+// // // const a = prompt("Enter a number")
+// // // switch (a) {
+// // //     case '0':
+// // //         console.log("0")
+// // //         break;
+// // // case '1':
+// // //    console.log("1")
+// // // break;
+
+
+// // //     case '2','3':
+// // //         console.log("2,3")
+// // //         break;
+// // //     default:
+// // //         console.log("NaN");
+// // // }
+
+// // // const input = parseInt(prompt("Enter a number"));
+
+// // // switch (true) {
+// // //     case input >= 55 && input <=99:
+// // //         console.log("In the range")
+// // //         break;
+// // //     default:
+// // //         console.log("NaN")
+// // // }
+
+// // // const firstName = prompt("What is your name?");
+// // // const lastName = prompt("What is your name?");
+
+// // // switch (true) {
+// // //     case firstName.length >= 4 && lastName.length >= 5:
+// // //         console.log(firstName.length + lastName.length);
+// // //         break;
+// // //     default:
+// // //         console.log("Opps");
+// // // }
+
+
+// // let grades = [3, 4, 5, 6, 7, 8, 9]
+// // let i = 0
+// // let = total = 0
+
+// // while (i < grades.length) {
+// //     total += grades[i];
+// //     i++
+// // }
     
-// rest = total / grades.length;
-//     console.log(total , rest)
-//     if (rest < 7) {
-//         console.log("You are accepted")
-//     }
+// // rest = total / grades.length;
+// //     console.log(total , rest)
+// //     if (rest < 7) {
+// //         console.log("You are accepted")
+// //     }
 
-// const max = 10
-// for (let index = 0; index < max; index++) {
-//     if (index % 2 === 0) {
-//         continue;
-//     }
-//     console.log(index)
-// }
-
-
-// // let num = prompt("Enter a number from 100 and more!")
-
-// // while (Number (num) < 100) {
-// //     num = prompt("Enter one more time")
+// // const max = 10
+// // for (let index = 0; index < max; index++) {
+// //     if (index % 2 === 0) {
+// //         continue;
+// //     }
+// //     console.log(index)
 // // }
 
-// let employees = 10
-// let yearSalary = Math.random() * (5000 - 500 + 1)
 
-// console.log(employees + yearSalary)
+// // // let num = prompt("Enter a number from 100 and more!")
 
-// // for (let i = 0; i < employees; i++) {
-// //     yearSalary += Math.random() * (5000 - 500 + 1)
+// // // while (Number (num) < 100) {
+// // //     num = prompt("Enter one more time")
+// // // }
+
+// // let employees = 10
+// // let yearSalary = Math.random() * (5000 - 500 + 1)
+
+// // console.log(employees + yearSalary)
+
+// // // for (let i = 0; i < employees; i++) {
+// // //     yearSalary += Math.random() * (5000 - 500 + 1)
+// // // }
+
+// // const text = function (a = 2, b = 3) {
+// //     return (a * b)
+// // }
+// // console.log(text(5, 6))
+
+// // let isEven = function (a) {
+// //     return a %2 == 0
 // // }
 
-// const text = function (a = 2, b = 3) {
-//     return (a * b)
-// }
-// console.log(text(5, 6))
+// // console.log(isEven(4)); // true
+// // console.log(isEven(3)); // false
+// // let array = [1, 3, 2, 5, 4];
 
-// let isEven = function (a) {
-//     return a %2 == 0
-// }
+// // function findMaxNumber(array) {
+// //     if (array.length === 0) {
+// //         return undefined; // Handle empty array case
+// //     }
 
-// console.log(isEven(4)); // true
-// console.log(isEven(3)); // false
-// let array = [1, 3, 2, 5, 4];
+// //     let max = array[0]; // Initialize max to the first element
 
-// function findMaxNumber(array) {
-//     if (array.length === 0) {
-//         return undefined; // Handle empty array case
-//     }
+// //     for (let i = 1; i < array.length; i++) {
+// //         if (array[i] > max) {
+// //             max = array[i];
+// //         }
+// //     }
 
-//     let max = array[0]; // Initialize max to the first element
+// //     return max;
+// // }
 
-//     for (let i = 1; i < array.length; i++) {
-//         if (array[i] > max) {
-//             max = array[i];
-//         }
-//     }
-
-//     return max;
-// }
-
-// let max = findMaxNumber(array);
-// console.log(max); // 5
-
-// let max = findMaxNumber(array);
-// console.log(max); // 5
-// let max = findMaxNumber(array);
-// console.log(max); // 5
-
-// function hello2(name) {
-//     console.log("Привіт, " + name);
-// }
-
-// hello2("Василь"); // Виведе "Привіт, Василь"
-
-// let max = findMaxNumber(array);
-// console.log(max); // 5
-
-// function hello2(name) {
-//     console.log("Привіт, " + name);
-// }
-
-// hello2("Василь"); // Виведе "Привіт, Василь"
 // // let max = findMaxNumber(array);
 // // console.log(max); // 5
 
-// function hello2(name) {
-//     console.log(`Привіт, ${name}`);
-// }
+// // let max = findMaxNumber(array);
+// // console.log(max); // 5
+// // let max = findMaxNumber(array);
+// // console.log(max); // 5
 
-// hello2("Василь"); // Виведе "Привіт, Василь"
-
-// function mul(n, m) {
-//     return {
-//         product: n * m,
-//         sum: n + m,
-//         difference: n - m
-//     };
-// }
-
-// let result = mul(5, 3);
-// console.log(result); // Виведе { product: 15, sum: 8, difference: 2 }
-
-// result = mul(10, 2);
-// console.log(result); // Виведе { product: 20, sum: 12, difference: 8 }
-
-
-// const arr = [1, 2, 3, 4, 5];
-
-// function sumArray(arr, callback) {
-//     let sum = 0;
-//     for (let i = 0; i < arr.length; i++) {
-//         sum += arr[i];
-//     }
-//     callback(sum);
-// }
-
-// function cb(result) {
-//     console.log(result);
-// }
-
-// sumArray(arr, cb); // Виведе 15
-
-// const filtr = function (arr, callback) {
-//     const filt = [];
-//     for (const elsement of arr) {
-//         const passed = callback(elsement);
-//         if (passed) {
-//             filt.push(elsement)
-//         }
-//     }
-//     return filt
-// }
-
-// const fruits = [
-//     { name: 'apples', quantity: 200, isFresh: true },
-//     { name: 'grapes', quantity: 150, isFresh: false },
-//     { name: 'bananas', quantity: 100, isFresh: true },
-// ];
-// const freshfruits = filtr(fruits, fruit => fruit.isFresh)
-// console.log(freshfruits)
-
-
-// const hello2 = (name) => console.log(`Привіт, ${name}`);
-
-// hello2("Василь"); // Виведе "Привіт, Василь"
-
-// const myAverageScore = (scores) => {
-//     const sum = scores.reduce((total, score) => total + score, 0);
-//     const average = sum / scores.length;
-
-//     let grade;
-//     if (average >= 91 && average <= 100) {
-//         grade = "A";
-//     } else if (average >= 81 && average <= 90) {
-//         grade = "B";
-//     } else if (average >= 71 && average <= 80) {
-//         grade = "C";
-//     } else {
-//         grade = "D";
-//     }
-
-//     console.log(`My average score: ${grade}, ${average}`);
-// };
-
-// console.log(myAverageScore([100, 75, 81, 96])); // My average score: B
-// console.log(myAverageScore([45, 63, 85, 70])); // My average score: D
-// console.log(myAverageScore([77, 82, 60, 58])); // My average score: D
-// console.log(myAverageScore([93, 99, 93, 96])); // My average score: A
-
-
-// let car = {
-//     Brand: "Toyota",
-//     Model: "Corola",
-//     Year: "2002",
-//     Color: "Blue",
-//     showName() {
-//         console.log(this.Brand)
-//         console.log(this.Model)
-//         console.log(this.Year)
-//         console.log(this.Color)
-//     },
-// };
-// car.showName();
-
-
-
-
-// const cart = {
-//     items: [
-// { name: '🍎', price: 50 },
-// { name: '🍇', price: 70 },
-// { name: '🍋', price: 60 },
-// { name: '🍓', price: 110 }
-//     ],
-//     getItems() {return this.items },
-//     add(product) {
-//         let found = false; 
-//         for (let i = 0; i < array.length; i++) {
-//             if (this.items[i].name === product.name) {
-//                 this.items[i].quantity;
-//                 found = true
-//             }
-//         }
-//     },
-//     remove(productName) {
-//         for (let i = 0; i < this.items.length; i++) {
-//             if (this.items[i].name === product.name) {
-//                 this.items.splice(i, 1)
-//                 break;
-//             }
-//         }
-// },
-//     clear() { },
-//     countTotalPrice() { },
-//     increaseQuantity(productName) { },
-//     decreaseQuantity(productName) { },
-// };
-
-// const tractor = {
-//     size: 'Big',
-//     color: 'Blue',
-//     motor: 'V12'
-// }   
-
-// // for (const key in tractor) {
-// //     console.log(key, tractor[key])
+// // function hello2(name) {
+// //     console.log("Привіт, " + name);
 // // }
 
-// const values = Object.values(tractor);
-// console.log(values);
-// const keys = Object.keys(tractor);
-// console.log(keys);
-// const entries = Object.entries(tractor);
-// console.log(entries);
+// // hello2("Василь"); // Виведе "Привіт, Василь"
 
-// const friends = [
-//     { name: 'Mango', online: false },
-//     { name: 'Kiwi', online: true },
-//     { name: 'Poly', online: false },
-//     { name: 'Ajax', online: false },
-// ]
+// // let max = findMaxNumber(array);
+// // console.log(max); // 5
 
-// function getAllNames(friendleArray, friend) {
-//     const all = [];
-//     for ()
-// }
-// console.log(getAllNames(friends));
+// // function hello2(name) {
+// //     console.log("Привіт, " + name);
+// // }
+
+// // hello2("Василь"); // Виведе "Привіт, Василь"
+// // // let max = findMaxNumber(array);
+// // // console.log(max); // 5
+
+// // function hello2(name) {
+// //     console.log(`Привіт, ${name}`);
+// // }
+
+// // hello2("Василь"); // Виведе "Привіт, Василь"
+
+// // function mul(n, m) {
+// //     return {
+// //         product: n * m,
+// //         sum: n + m,
+// //         difference: n - m
+// //     };
+// // }
+
+// // let result = mul(5, 3);
+// // console.log(result); // Виведе { product: 15, sum: 8, difference: 2 }
+
+// // result = mul(10, 2);
+// // console.log(result); // Виведе { product: 20, sum: 12, difference: 8 }
 
 
-// function findFriend(friendleArray, friend) {
-//     for (let i = 0; i < friendleArray.length; i++) {
-//         if (friendleArray[i].name === friend) {
-//             return friendleArray[i];
-//         }
+// // const arr = [1, 2, 3, 4, 5];
 
-//     }
-//     return null;
-// }
-// console.log(findFriend(friends, 'Poly'));
-// console.log(findFriend(friends, 'Chelsy'));
+// // function sumArray(arr, callback) {
+// //     let sum = 0;
+// //     for (let i = 0; i < arr.length; i++) {
+// //         sum += arr[i];
+// //     }
+// //     callback(sum);
+// // }
 
-// function getOnlineFriends(friends) {
-//     if (!Array.isArray(friends)) {
-//         throw new Error("Input must be an array"); // Check if the input is an array
-//     }
-//     const onlineFriends = friends.filter(friend => friend.online);
+// // function cb(result) {
+// //     console.log(result);
+// // }
 
-//     onlineFriends.forEach(friend => {
-//         console.log(`${friend.name} is online`); // Log the online status of each friend
-//     });
+// // sumArray(arr, cb); // Виведе 15
 
-//     return onlineFriends; // Return the array of online friends
-// }
+// // const filtr = function (arr, callback) {
+// //     const filt = [];
+// //     for (const elsement of arr) {
+// //         const passed = callback(elsement);
+// //         if (passed) {
+// //             filt.push(elsement)
+// //         }
+// //     }
+// //     return filt
+// // }
 
-// console.log(getOnlineFriends(friends)); // Call the function and log the result
+// // const fruits = [
+// //     { name: 'apples', quantity: 200, isFresh: true },
+// //     { name: 'grapes', quantity: 150, isFresh: false },
+// //     { name: 'bananas', quantity: 100, isFresh: true },
+// // ];
+// // const freshfruits = filtr(fruits, fruit => fruit.isFresh)
+// // console.log(freshfruits)
 
-// function getOfflineFriends(friends) {
-//     if (!Array.isArray(friends)) {
-//         throw new Error("Input must be an array");
-//     }
-//     const offlineFriends = friends.filter(friend => !friend.online); // gets the other property from online. Meaning; False
 
-//     offlineFriends.forEach(friend => {
-//         console.log(`${friend.name} is offline`); // writes that which friend is offline
-//     });
+// // const hello2 = (name) => console.log(`Привіт, ${name}`);
 
-//     return offlineFriends; // returning the array
-// }
+// // hello2("Василь"); // Виведе "Привіт, Василь"
 
-// console.log(getOfflineFriends(friends)) // writing the code
+// // const myAverageScore = (scores) => {
+// //     const sum = scores.reduce((total, score) => total + score, 0);
+// //     const average = sum / scores.length;
 
-// let products = [
+// //     let grade;
+// //     if (average >= 91 && average <= 100) {
+// //         grade = "A";
+// //     } else if (average >= 81 && average <= 90) {
+// //         grade = "B";
+// //     } else if (average >= 71 && average <= 80) {
+// //         grade = "C";
+// //     } else {
+// //         grade = "D";
+// //     }
 
-//     {
-//         price: '200',
-//         category: 'Phones',
-//         stock: 'None',
-//         name: 'Iphone16UltraPro'
-//     },
-// {
-//         price: '400',
-//         category: 'Phones',
-//         stock: '2',
-//         name: 'Iphone17UltraPro'
-//     },
-//     {
-//         price: '800',
-//         category: 'Phones',
-//         stock: '1',
-//         name: 'Iphone18UltraPro'
-//     }
+// //     console.log(`My average score: ${grade}, ${average}`);
+// // };
 
-// ]
+// // console.log(myAverageScore([100, 75, 81, 96])); // My average score: B
+// // console.log(myAverageScore([45, 63, 85, 70])); // My average score: D
+// // console.log(myAverageScore([77, 82, 60, 58])); // My average score: D
+// // console.log(myAverageScore([93, 99, 93, 96])); // My average score: A
+
+
+// // let car = {
+// //     Brand: "Toyota",
+// //     Model: "Corola",
+// //     Year: "2002",
+// //     Color: "Blue",
+// //     showName() {
+// //         console.log(this.Brand)
+// //         console.log(this.Model)
+// //         console.log(this.Year)
+// //         console.log(this.Color)
+// //     },
+// // };
+// // car.showName();
+
+
+
+
+// // const cart = {
+// //     items: [
+// // { name: '🍎', price: 50 },
+// // { name: '🍇', price: 70 },
+// // { name: '🍋', price: 60 },
+// // { name: '🍓', price: 110 }
+// //     ],
+// //     getItems() {return this.items },
+// //     add(product) {
+// //         let found = false; 
+// //         for (let i = 0; i < array.length; i++) {
+// //             if (this.items[i].name === product.name) {
+// //                 this.items[i].quantity;
+// //                 found = true
+// //             }
+// //         }
+// //     },
+// //     remove(productName) {
+// //         for (let i = 0; i < this.items.length; i++) {
+// //             if (this.items[i].name === product.name) {
+// //                 this.items.splice(i, 1)
+// //                 break;
+// //             }
+// //         }
+// // },
+// //     clear() { },
+// //     countTotalPrice() { },
+// //     increaseQuantity(productName) { },
+// //     decreaseQuantity(productName) { },
+// // };
+
+// // const tractor = {
+// //     size: 'Big',
+// //     color: 'Blue',
+// //     motor: 'V12'
+// // }   
+
+// // // for (const key in tractor) {
+// // //     console.log(key, tractor[key])
+// // // }
+
+// // const values = Object.values(tractor);
+// // console.log(values);
+// // const keys = Object.keys(tractor);
+// // console.log(keys);
+// // const entries = Object.entries(tractor);
+// // console.log(entries);
+
+// // const friends = [
+// //     { name: 'Mango', online: false },
+// //     { name: 'Kiwi', online: true },
+// //     { name: 'Poly', online: false },
+// //     { name: 'Ajax', online: false },
+// // ]
+
+// // function getAllNames(friendleArray, friend) {
+// //     const all = [];
+// //     for ()
+// // }
+// // console.log(getAllNames(friends));
+
+
+// // function findFriend(friendleArray, friend) {
+// //     for (let i = 0; i < friendleArray.length; i++) {
+// //         if (friendleArray[i].name === friend) {
+// //             return friendleArray[i];
+// //         }
+
+// //     }
+// //     return null;
+// // }
+// // console.log(findFriend(friends, 'Poly'));
+// // console.log(findFriend(friends, 'Chelsy'));
+
+// // function getOnlineFriends(friends) {
+// //     if (!Array.isArray(friends)) {
+// //         throw new Error("Input must be an array"); // Check if the input is an array
+// //     }
+// //     const onlineFriends = friends.filter(friend => friend.online);
+
+// //     onlineFriends.forEach(friend => {
+// //         console.log(`${friend.name} is online`); // Log the online status of each friend
+// //     });
+
+// //     return onlineFriends; // Return the array of online friends
+// // }
+
+// // console.log(getOnlineFriends(friends)); // Call the function and log the result
+
+// // function getOfflineFriends(friends) {
+// //     if (!Array.isArray(friends)) {
+// //         throw new Error("Input must be an array");
+// //     }
+// //     const offlineFriends = friends.filter(friend => !friend.online); // gets the other property from online. Meaning; False
+
+// //     offlineFriends.forEach(friend => {
+// //         console.log(`${friend.name} is offline`); // writes that which friend is offline
+// //     });
+
+// //     return offlineFriends; // returning the array
+// // }
+
+// // console.log(getOfflineFriends(friends)) // writing the code
+
+// // let products = [
+
+// //     {
+// //         price: '200',
+// //         category: 'Phones',
+// //         stock: 'None',
+// //         name: 'Iphone16UltraPro'
+// //     },
+// // {
+// //         price: '400',
+// //         category: 'Phones',
+// //         stock: '2',
+// //         name: 'Iphone17UltraPro'
+// //     },
+// //     {
+// //         price: '800',
+// //         category: 'Phones',
+// //         stock: '1',
+// //         name: 'Iphone18UltraPro'
+// //     }
+
+// // ]
  
-// function getAllPrices(products, ProductsArr) {
-//     console.log(products.price)
+// // function getAllPrices(products, ProductsArr) {
+// //     console.log(products.price)
+// // }
+
+// // console.log(getAllPrices);
+
+
+// // const list = {
+// //     name: 'John Doe',
+// //     age: 25,
+// //     city: 'New York',
+// //     family: 'big'
+// // }
+
+// // const { name, age, city, family } = list;
+
+// const user = {
+//     name: 'John',
+//     age: 30,
+//     email: 'john@example.com',
+//     info() {
+//         console.log(`Name: ${this.name}, Age: ${this.age}`);
+//     } 
 // }
 
-// console.log(getAllPrices);
+// const { name, age, email } = user;
+// console.log(name, age, email);
+
+// const car = {
+//     make: 'Toyota',
+//     model: 'Camry',
+//     year: 2020,
+//     features: ['power windows', 'rear camera', 'navigation'],
+//     safety: {
+//         airbags: true,
+//         antilock_brakes: true,
+//         stability_control: true
+//     },
+//     info() {
+//         console.log(`Make: ${this.make}, Model: ${this.model}, Year: ${this.year}`);
+//     }
+// }
+// const { make, model, year, features, safety } = car;
+// console.log(make, model, year, features, safety);
+
+// const movie = {
+//     title: 'The Shawshank Redemption',
+//     director: {
+//         name: 'Frank Darabont',
+//         nationality: 'American'
+//     },
+//     actors: ['Tim Robbins', 'Morgan Freeman'],
+//     release_year: 1994,
+//     ratings: {
+//         imdb: 9.3,
+//         rotten_tomatoes: 90
+//     }
+// }
+// const { title, director, actors, release_year, ratings } = movie;
+// console.log(title, director, actors, release_year, ratings);
+
+// const books = {
+//     count: 3,
+//     list: [
+//         {
+//             title0: 'The Great Gatsby',
+//             author0: 'F. Scott Fitzgerald',
+//             year0: 1925
+//         },
+//         {
+//             title1: 'To Kill a Mockingbird',
+//             author1: 'Harper Lee',
+//             year1: 1960
+//         },
+//         {
+//             title2: '1984',
+//             author2: 'George Orwell',
+//             year2: 1949
+//         }
+//     ]
+// }
+// const { count, list: [{title0, author0, year0}, {title1, author1, year1}, {title2, author2, year2}]} = books;
+// console.log(count, title0, author0, year0, title1, author1, year1, title2, author2, year2);
 
 
-// const list = {
-//     name: 'John Doe',
+// const person = {
+//     name: 'Nelli',
+//     surname: 'Laroy',
 //     age: 25,
-//     city: 'New York',
-//     family: 'big'
+// };
+
+// const personInfo = function ({ name, surname, age }) {
+//     return (`my name is ${name}, ${surname}. I am ${age} `)
 // }
 
-// const { name, age, city, family } = list;
+// console.log(personInfo(person));
 
-const user = {
-    name: 'John',
-    age: 30,
-    email: 'john@example.com',
-    info() {
-        console.log(`Name: ${this.name}, Age: ${this.age}`);
-    } 
+// const student = {
+//     name: 'Bruce',
+//     surname: 'Lee',
+//     grades: [4, 5, 3]
+// };
+
+// const calculateAverageGrade = function ({ grades: [var1, var2, var3] }) {
+//     return ((var1+var2+var3)/3)
+// }
+
+// console.log(calculateAverageGrade(student));
+
+// const items = [
+//     { name: 'Футболка', price: 250, quantity: 2 },
+//     { name: 'Джинси', price: 800, quantity: 1 },
+//     { name: 'Кросівки', price: 1200, quantity: 1 }
+// ];
+
+// console.log(calculateTotalCost(items)); // 250 * 2 + 800 * 1 + 1200 * 1 = 2500
+
+
+let numbers = 0;
+for (let i = 1; i <= 5; i++) {
+    numbers += i;
 }
 
-const { name, age, email } = user;
-console.log(name, age, email);
+console.log(numbers)
 
-const car = {
-    make: 'Toyota',
-    model: 'Camry',
-    year: 2020,
-    features: ['power windows', 'rear camera', 'navigation'],
-    safety: {
-        airbags: true,
-        antilock_brakes: true,
-        stability_control: true
-    },
-    info() {
-        console.log(`Make: ${this.make}, Model: ${this.model}, Year: ${this.year}`);
-    }
-}
-const { make, model, year, features, safety } = car;
-console.log(make, model, year, features, safety);
+let sum = [1, 2, 3, 4, 5];
 
-const movie = {
-    title: 'The Shawshank Redemption',
-    director: {
-        name: 'Frank Darabont',
-        nationality: 'American'
-    },
-    actors: ['Tim Robbins', 'Morgan Freeman'],
-    release_year: 1994,
-    ratings: {
-        imdb: 9.3,
-        rotten_tomatoes: 90
-    }
-}
-const { title, director, actors, release_year, ratings } = movie;
-console.log(title, director, actors, release_year, ratings);
+const all = sum.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+console.log(all)
 
-const books = {
-    count: 3,
-    list: [
-        {
-            title0: 'The Great Gatsby',
-            author0: 'F. Scott Fitzgerald',
-            year0: 1925
-        },
-        {
-            title1: 'To Kill a Mockingbird',
-            author1: 'Harper Lee',
-            year1: 1960
-        },
-        {
-            title2: '1984',
-            author2: 'George Orwell',
-            year2: 1949
-        }
-    ]
-}
-const { count, list: [{title0, author0, year0}, {title1, author1, year1}, {title2, author2, year2}]} = books;
-console.log(count, title0, author0, year0, title1, author1, year1, title2, author2, year2);
-
-
-const person = {
-    name: 'Nelli',
-    surname: 'Laroy',
-    age: 25,
-};
-
-const personInfo = function ({ name, surname, age }) {
-    return (`my name is ${name}, ${surname}. I am ${age} `)
-}
-
-console.log(personInfo(person));
-
-const student = {
-    name: 'Bruce',
-    surname: 'Lee',
-    grades: [4, 5, 3]
-};
-
-const calculateAverageGrade = function ({ grades: [var1, var2, var3] }) {
-    return ((var1+var2+var3)/3)
-}
-
-console.log(calculateAverageGrade(student));
-
-const items = [
-    { name: 'Футболка', price: 250, quantity: 2 },
-    { name: 'Джинси', price: 800, quantity: 1 },
-    { name: 'Кросівки', price: 1200, quantity: 1 }
+const players = [
+    { id: 'player-1', name: 'Mango', timePlayed: 310, points: 54, online: false },
+    { id: 'player-2', name: 'Poly', timePlayed: 470, points: 92, online: true },
+    { id: 'player-3', name: 'Kiwi', timePlayed: 230, points: 48, online: true },
+    { id: 'player-4', name: 'Ajax', timePlayed: 150, points: 71, online: false },
+    { id: 'player-5', name: 'Chelsy', timePlayed: 80, points: 48, online: true },
 ];
 
-console.log(calculateTotalCost(items)); // 250 * 2 + 800 * 1 + 1200 * 1 = 2500
+const name1 = players.map(players => players.name)
+console.log(name1);
+
+const updatedPlayers = players.map(player => ({
+    ...player,
+    points: player.points * 1.1
+})) 
+
+console.log(updatedPlayers);
+
+// // /* The above code is attempting to create a new array called `hardcorePlayers` by mapping over an
+// existing array called `players`. However, there are some issues in the code: */
+const hardcorePlayers = players.map(player => ({
+    ..player,
+    timePlayed: player.timePlayed < 250;
+}))
+console.log(hardcorePlayers);
