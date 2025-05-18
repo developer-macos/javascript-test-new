@@ -732,17 +732,17 @@
 // console.log(calculateTotalCost(items)); // 250 * 2 + 800 * 1 + 1200 * 1 = 2500
 
 
-let numbers = 0;
-for (let i = 1; i <= 5; i++) {
-    numbers += i;
-}
+// let numbers = 0;
+// for (let i = 1; i <= 5; i++) {
+//     numbers += i;
+// }
 
-console.log(numbers)
+// console.log(numbers)
 
-let sum = [1, 2, 3, 4, 5];
+// let sum = [1, 2, 3, 4, 5];
 
-const all = sum.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-console.log(all)
+// const all = sum.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+// console.log(all)
 
 const players = [
     { id: 'player-1', name: 'Mango', timePlayed: 310, points: 54, online: false },
@@ -752,20 +752,23 @@ const players = [
     { id: 'player-5', name: 'Chelsy', timePlayed: 80, points: 48, online: true },
 ];
 
-const name1 = players.map(players => players.name)
-console.log(name1);
 
-const updatedPlayers = players.map(player => ({
-    ...player,
-    points: player.points * 1.1
-})) 
+const PLayerByID = players.find(players => players.id === 'player-1')
+console.log(PLayerByID);
 
-console.log(updatedPlayers);
 
-// // /* The above code is attempting to create a new array called `hardcorePlayers` by mapping over an
-// existing array called `players`. However, there are some issues in the code: */
-const hardcorePlayers = players.map(player => ({
-    ..player,
-    timePlayed: player.timePlayed < 250;
-}))
-console.log(hardcorePlayers);
+const PlayerByName = players.find(players => players.name === 'Poly')
+console.log(PlayerByName);
+
+const onlinePlayers = players.every(players => players.online)
+console.log(onlinePlayers);
+
+const Time200 = players.every(players => players.timePlayed > 200)
+console.log(Time200);
+
+const people = [
+    { name: 'John', age: 32, occupation: 'programmer' },
+    { name: 'Jane', age: 26, occupation: 'teacher' },
+    { name: 'Mike', age: 42, occupation: 'engineer' },
+    { name: 'Emily', age: 17, occupation: 'designer' }
+];
