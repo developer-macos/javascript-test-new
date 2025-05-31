@@ -809,45 +809,84 @@
 
 // console.log(fruitCount + 'pen');
 
-const numbers = [5, 7, 2, 6, 4, 9, 3]
-console.log(numbers.sort());
+// const numbers = [5, 7, 2, 6, 4, 9, 3]
+// console.log(numbers.sort());
 
 
-const players = [
-    { id: 'player-1', name: 'Mango', timePlayed: 310, points: 54, online: false },
-    { id: 'player-2', name: 'Poly', timePlayed: 470, points: 92, online: true },
-    { id: 'player-3', name: 'Kiwi', timePlayed: 230, points: 48, online: true },
-    { id: 'player-4', name: 'Ajax', timePlayed: 150, points: 71, online: false },
-    { id: 'player-5', name: 'Chelsy', timePlayed: 80, points: 48, online: true },
-];
-players.sort((a, b) => a.timePlayed - b.timePlayed)
-const playedTime = players.timePlayed;
-console.log(playedTime);
+// const players = [
+//     { id: 'player-1', name: 'Mango', timePlayed: 310, points: 54, online: false },
+//     { id: 'player-2', name: 'Poly', timePlayed: 470, points: 92, online: true },
+//     { id: 'player-3', name: 'Kiwi', timePlayed: 230, points: 48, online: true },
+//     { id: 'player-4', name: 'Ajax', timePlayed: 150, points: 71, online: false },
+//     { id: 'player-5', name: 'Chelsy', timePlayed: 80, points: 48, online: true },
+// ];
+// players.sort((a, b) => a.timePlayed - b.timePlayed)
+// const playedTime = players.timePlayed;
+// console.log(playedTime);
 
-const arr = [
-    { name: 'John', age: 32 },
-    { name: 'Jane', age: 26 },
-    { name: 'Mike', age: 42 },
-    { name: 'Emily', age: 29 }
-];
+// const arr = [
+//     { name: 'John', age: 32 },
+//     { name: 'Jane', age: 26 },
+//     { name: 'Mike', age: 42 },
+//     { name: 'Emily', age: 29 }
+// ];
 
-arr.sort((a, b) => a.name.localeCompare(b.name));
-const names = arr.map(person => person.name);
-console.log(names);
+// arr.sort((a, b) => a.name.localeCompare(b.name));
+// const names = arr.map(person => person.name);
+// console.log(names);
 
-const products = [
-    { name: 'Product 1', price: 100, quantity: 5 },
-    { name: 'Product 2', price: 50, quantity: 10 },
-    { name: 'Product 3', price: 200, quantity: 2 },
-    { name: 'Product 4', price: 50, quantity: 5 }
-];
+// const products = [
+//     { name: 'Product 1', price: 100, quantity: 5 },
+//     { name: 'Product 2', price: 50, quantity: 10 },
+//     { name: 'Product 3', price: 200, quantity: 2 },
+//     { name: 'Product 4', price: 50, quantity: 5 }
+// ];
 
 
-products.sort((a, b) => {
-    if (b.price !== a.price) {
-        return b.price - a.price;
+// products.sort((a, b) => {
+//     if (b.price !== a.price) {
+//         return b.price - a.price;
+//     }
+//     return a.quantity - b.quantity; 
+// });
+
+// console.log(products);
+
+class Human {
+    constructor(legs, arms, eyes, colorOfEyes, fingers, colorOfHair) {
+        this.legs = legs;
+        this.arms = arms;
+        this.colorOfEyes = colorOfEyes;
+        this.colorOfHair = colorOfHair;
+        this.fingers = fingers;
+        this.eyes = eyes;
     }
-    return a.quantity - b.quantity; 
-});
+    speak() {
+        console.log(`Hi! I have ${this.legs} legs`)
+    }
+}
 
-console.log(products);
+class Person {
+    constructor({ firstname, lastname }) {
+        this.firstName = firstname;
+        this.lastName = lastname;
+    }
+    getFullName() {
+        return `Hi! I am ${this.firstName} ${this.lastName}!`
+    }
+}
+const alexOro = new Person({ firstname: 'Alex', lastname: 'Orokolod' });
+console.log(alexOro.getFullName());
+
+class Rectangle {
+    constructor({ width, height }) {
+        this.width = width;
+        this.height = height;
+    }
+    getArea() {
+        return this.width * this.height
+        
+    }
+}
+const rectangle1 = new Rectangle({ width: 10, height: 5 });
+console.log(rectangle1.getArea()); // 50
